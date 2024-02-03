@@ -1,5 +1,19 @@
 import * as React from "react";
 
+
+export function CompanyLogo(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="533.333"
+      height="533.333"
+      version="1"
+      viewBox="0 0 400 400"
+    ></svg>
+  );
+}
+
+
 function SvgPankodIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
